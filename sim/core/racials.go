@@ -128,17 +128,17 @@ func applyRaceEffects(agent Agent, partyBuffs *proto.PartyBuffs) {
 		berserkingAura := character.RegisterAura(Aura{
 			Label:    "Titanforged Human",
 			ActionID: actionID,
-			Duration: time.Second * 10,
+			Duration: time.Second * 15,
 			OnGain: func(aura *Aura, sim *Simulation) {
 				aura.Unit.AddStatsDynamic(sim, stats.Stats{
-					stats.MeleeCrit: 10 * CritRatingPerCritChance,
-					stats.SpellCrit: 10 * CritRatingPerCritChance,
+					stats.MeleeCrit: 15 * CritRatingPerCritChance,
+					stats.SpellCrit: 15 * CritRatingPerCritChance,
 				})
 			},
 			OnExpire: func(aura *Aura, sim *Simulation) {
 				aura.Unit.AddStatsDynamic(sim, stats.Stats{
-					stats.MeleeCrit: -10 * CritRatingPerCritChance,
-					stats.SpellCrit: -10 * CritRatingPerCritChance,
+					stats.MeleeCrit: -15 * CritRatingPerCritChance,
+					stats.SpellCrit: -15 * CritRatingPerCritChance,
 				})
 			},
 		})
@@ -149,7 +149,7 @@ func applyRaceEffects(agent Agent, partyBuffs *proto.PartyBuffs) {
 			Cast: CastConfig{
 				CD: Cooldown{
 					Timer:    character.NewTimer(),
-					Duration: time.Minute * 2,
+					Duration: time.Minute * 3,
 				},
 			},
 
