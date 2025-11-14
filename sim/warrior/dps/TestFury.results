@@ -890,43 +890,43 @@ dps_results: {
 dps_results: {
  key: "TestFury-Settings-Human-p1_fury-Basic-fury-FullBuffs-LongMultiTarget"
  value: {
-  dps: 10294.60824
-  tps: 8016.90735
+  dps: 10456.70529
+  tps: 8142.8838
  }
 }
 dps_results: {
  key: "TestFury-Settings-Human-p1_fury-Basic-fury-FullBuffs-LongSingleTarget"
  value: {
-  dps: 6955.40821
-  tps: 5169.2826
+  dps: 6980.79133
+  tps: 5186.61458
  }
 }
 dps_results: {
  key: "TestFury-Settings-Human-p1_fury-Basic-fury-FullBuffs-ShortSingleTarget"
  value: {
-  dps: 8347.45997
-  tps: 6188.65399
+  dps: 8467.77996
+  tps: 6272.75859
  }
 }
 dps_results: {
  key: "TestFury-Settings-Human-p1_fury-Basic-fury-NoBuffs-LongMultiTarget"
  value: {
-  dps: 4394.68747
-  tps: 3569.94332
+  dps: 4432.33246
+  tps: 3598.37498
  }
 }
 dps_results: {
  key: "TestFury-Settings-Human-p1_fury-Basic-fury-NoBuffs-LongSingleTarget"
  value: {
-  dps: 2797.06729
-  tps: 2107.61812
+  dps: 2787.49895
+  tps: 2098.63301
  }
 }
 dps_results: {
  key: "TestFury-Settings-Human-p1_fury-Basic-fury-NoBuffs-ShortSingleTarget"
  value: {
-  dps: 3038.98566
-  tps: 2297.15898
+  dps: 3090.04268
+  tps: 2328.61461
  }
 }
 dps_results: {

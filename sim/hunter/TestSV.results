@@ -890,127 +890,127 @@ dps_results: {
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-aoe-FullBuffs-LongMultiTarget"
  value: {
-  dps: 29853.6634
-  tps: 29815.90055
+  dps: 30002.51581
+  tps: 29964.75296
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-aoe-FullBuffs-LongSingleTarget"
  value: {
-  dps: 3520.28427
-  tps: 2532.13387
+  dps: 3533.5145
+  tps: 2545.3641
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-aoe-FullBuffs-ShortSingleTarget"
  value: {
-  dps: 4883.5329
-  tps: 3691.74871
+  dps: 4925.11063
+  tps: 3733.32644
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-aoe-NoBuffs-LongMultiTarget"
  value: {
-  dps: 12755.7402
-  tps: 13545.70211
+  dps: 12830.06991
+  tps: 13620.03183
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-aoe-NoBuffs-LongSingleTarget"
  value: {
-  dps: 1389.15902
-  tps: 1084.83339
+  dps: 1395.2446
+  tps: 1090.91897
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-aoe-NoBuffs-ShortSingleTarget"
  value: {
-  dps: 2181.85555
-  tps: 1793.06491
+  dps: 2199.33812
+  tps: 1810.54747
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv-FullBuffs-LongMultiTarget"
  value: {
-  dps: 19927.14913
-  tps: 20116.05988
+  dps: 20020.53416
+  tps: 20209.44491
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv-FullBuffs-LongSingleTarget"
  value: {
-  dps: 7596.3656
-  tps: 6598.12253
+  dps: 7626.53253
+  tps: 6628.28947
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv-FullBuffs-ShortSingleTarget"
  value: {
-  dps: 8463.0163
-  tps: 7332.12918
+  dps: 8522.73925
+  tps: 7391.85213
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv-NoBuffs-LongMultiTarget"
  value: {
-  dps: 10428.59955
-  tps: 11556.10159
+  dps: 10477.43742
+  tps: 11604.93946
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv-NoBuffs-LongSingleTarget"
  value: {
-  dps: 3830.69703
-  tps: 3510.00746
+  dps: 3845.65065
+  tps: 3524.96108
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv-NoBuffs-ShortSingleTarget"
  value: {
-  dps: 4563.8019
-  tps: 4161.4695
+  dps: 4594.62981
+  tps: 4192.29741
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv_advanced-FullBuffs-LongMultiTarget"
  value: {
-  dps: 20148.72403
-  tps: 20315.39194
+  dps: 20234.84551
+  tps: 20401.51343
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv_advanced-FullBuffs-LongSingleTarget"
  value: {
-  dps: 7741.22067
-  tps: 6753.2101
+  dps: 7774.76998
+  tps: 6786.75942
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv_advanced-FullBuffs-ShortSingleTarget"
  value: {
-  dps: 9020.06393
-  tps: 7858.5226
+  dps: 9094.1832
+  tps: 7932.64187
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv_advanced-NoBuffs-LongMultiTarget"
  value: {
-  dps: 10474.99021
-  tps: 11553.27142
+  dps: 10519.30783
+  tps: 11597.58904
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv_advanced-NoBuffs-LongSingleTarget"
  value: {
-  dps: 3929.57416
-  tps: 3609.33471
+  dps: 3946.53416
+  tps: 3626.29472
  }
 }
 dps_results: {
  key: "TestSV-Settings-Dwarf-p1_sv-Basic-sv_advanced-NoBuffs-ShortSingleTarget"
  value: {
-  dps: 4856.07183
-  tps: 4456.42017
+  dps: 4896.28243
+  tps: 4496.63078
  }
 }
 dps_results: {

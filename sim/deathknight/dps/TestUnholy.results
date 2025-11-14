@@ -1030,144 +1030,144 @@ dps_results: {
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_2h_ss-FullBuffs-LongMultiTarget"
  value: {
-  dps: 14197.9841
-  tps: 9329.47559
+  dps: 14321.76398
+  tps: 9444.21489
   hps: 42.10858
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_2h_ss-FullBuffs-LongSingleTarget"
  value: {
-  dps: 10194.12341
-  tps: 5985.56577
+  dps: 10233.09605
+  tps: 6023.50741
   hps: 42.10858
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_2h_ss-FullBuffs-ShortSingleTarget"
  value: {
-  dps: 15179.31445
-  tps: 7213.71158
+  dps: 15286.44715
+  tps: 7326.4231
   hps: 210.54288
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_2h_ss-NoBuffs-LongMultiTarget"
  value: {
-  dps: 6741.89766
-  tps: 4602.89579
+  dps: 6794.79812
+  tps: 4648.97422
   hps: 27.712
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_2h_ss-NoBuffs-LongSingleTarget"
  value: {
-  dps: 5049.93622
-  tps: 3187.41607
+  dps: 5073.48397
+  tps: 3207.39629
   hps: 27.712
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_2h_ss-NoBuffs-ShortSingleTarget"
  value: {
-  dps: 6573.48109
-  tps: 3475.97891
+  dps: 6603.05788
+  tps: 3509.07136
   hps: 138.56
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_dnd_aoe-FullBuffs-LongMultiTarget"
  value: {
-  dps: 58871.57778
-  tps: 60989.81613
+  dps: 59217.69046
+  tps: 61400.56105
   hps: 235.80803
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_dnd_aoe-FullBuffs-LongSingleTarget"
  value: {
-  dps: 11179.88295
-  tps: 7471.7883
+  dps: 11225.661
+  tps: 7516.81406
   hps: 235.80803
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_dnd_aoe-FullBuffs-ShortSingleTarget"
  value: {
-  dps: 16089.34451
-  tps: 8670.08597
+  dps: 16212.87241
+  tps: 8806.8389
   hps: 336.86861
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_dnd_aoe-NoBuffs-LongMultiTarget"
  value: {
-  dps: 34683.47273
-  tps: 37073.98028
+  dps: 34877.72064
+  tps: 37321.83686
   hps: 155.46432
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_dnd_aoe-NoBuffs-LongSingleTarget"
  value: {
-  dps: 5699.46006
-  tps: 4174.42333
+  dps: 5730.45976
+  tps: 4207.26633
   hps: 155.1872
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-uh_dnd_aoe-NoBuffs-ShortSingleTarget"
  value: {
-  dps: 7137.63313
-  tps: 4441.92854
+  dps: 7197.66041
+  tps: 4522.56344
   hps: 221.696
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-unholy_dw_ss-FullBuffs-LongMultiTarget"
  value: {
-  dps: 36060.60293
-  tps: 43125.72113
+  dps: 36308.56408
+  tps: 43453.17578
   hps: 235.80803
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-unholy_dw_ss-FullBuffs-LongSingleTarget"
  value: {
-  dps: 11338.74558
-  tps: 7619.39594
+  dps: 11389.76357
+  tps: 7668.6149
   hps: 235.80803
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-unholy_dw_ss-FullBuffs-ShortSingleTarget"
  value: {
-  dps: 16136.30807
-  tps: 8765.77575
+  dps: 16252.59398
+  tps: 8889.18651
   hps: 336.86861
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-unholy_dw_ss-NoBuffs-LongMultiTarget"
  value: {
-  dps: 18624.41707
-  tps: 22828.96296
+  dps: 18754.33916
+  tps: 23006.58941
   hps: 155.74144
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-unholy_dw_ss-NoBuffs-LongSingleTarget"
  value: {
-  dps: 5822.89427
-  tps: 4277.01692
+  dps: 5852.00972
+  tps: 4308.36243
   hps: 155.1872
  }
 }
 dps_results: {
  key: "TestUnholy-Settings-Human-p3_uh_dw-Basic-unholy_dw_ss-NoBuffs-ShortSingleTarget"
  value: {
-  dps: 7193.26094
-  tps: 4488.09576
+  dps: 7259.37767
+  tps: 4572.31428
   hps: 221.696
  }
 }

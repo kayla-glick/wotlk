@@ -827,43 +827,43 @@ dps_results: {
 dps_results: {
  key: "TestBlood-Settings-Human-p3_blood-Basic-blood_dps-FullBuffs-LongMultiTarget"
  value: {
-  dps: 28055.98211
-  tps: 15052.07508
+  dps: 28269.96451
+  tps: 15134.80403
  }
 }
 dps_results: {
  key: "TestBlood-Settings-Human-p3_blood-Basic-blood_dps-FullBuffs-LongSingleTarget"
  value: {
-  dps: 10839.69606
-  tps: 5490.33632
+  dps: 10985.36251
+  tps: 5554.89285
  }
 }
 dps_results: {
  key: "TestBlood-Settings-Human-p3_blood-Basic-blood_dps-FullBuffs-ShortSingleTarget"
  value: {
-  dps: 14150.36846
-  tps: 6414.06121
+  dps: 14523.68973
+  tps: 6574.33089
  }
 }
 dps_results: {
  key: "TestBlood-Settings-Human-p3_blood-Basic-blood_dps-NoBuffs-LongMultiTarget"
  value: {
-  dps: 14120.02417
-  tps: 7811.89183
+  dps: 14206.53856
+  tps: 7845.28958
  }
 }
 dps_results: {
  key: "TestBlood-Settings-Human-p3_blood-Basic-blood_dps-NoBuffs-LongSingleTarget"
  value: {
-  dps: 6275.18308
-  tps: 3183.59544
+  dps: 6345.81512
+  tps: 3213.8294
  }
 }
 dps_results: {
  key: "TestBlood-Settings-Human-p3_blood-Basic-blood_dps-NoBuffs-ShortSingleTarget"
  value: {
-  dps: 7499.90666
-  tps: 3377.91751
+  dps: 7672.72411
+  tps: 3449.68847
  }
 }
 dps_results: {

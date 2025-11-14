@@ -87,9 +87,11 @@ func applyRaceEffects(agent Agent) {
 		stoneFormAura := character.NewTemporaryStatsAuraWrapped("Stoneform", actionID, stats.Stats{}, time.Second*8, func(aura *Aura) {
 			aura.ApplyOnGain(func(aura *Aura, sim *Simulation) {
 				aura.Unit.EnableDynamicStatDep(sim, statDep)
+				aura.Unit.PseudoStats.DamageDealtMultiplier *= 1.05
 			})
 			aura.ApplyOnExpire(func(aura *Aura, sim *Simulation) {
 				aura.Unit.DisableDynamicStatDep(sim, statDep)
+				aura.Unit.PseudoStats.DamageDealtMultiplier /= 1.05
 			})
 		})
 
@@ -118,10 +120,87 @@ func applyRaceEffects(agent Agent) {
 		character.MultiplyStat(stats.Spirit, 1.03)
 		applyWeaponSpecialization(character, 3*ExpertisePerQuarterPercentReduction,
 			proto.WeaponType_WeaponTypeMace, proto.WeaponType_WeaponTypeSword)
+
+		// Berserking
+		actionID := ActionID{SpellID: 26297}
+
+		berserkingAura := character.RegisterAura(Aura{
+			Label:    "Titanforged Human",
+			ActionID: actionID,
+			Duration: time.Second * 10,
+			OnGain: func(aura *Aura, sim *Simulation) {
+				aura.Unit.AddStatsDynamic(sim, stats.Stats{
+					stats.MeleeCrit: 10 * CritRatingPerCritChance,
+					stats.SpellCrit: 10 * CritRatingPerCritChance,
+				})
+			},
+			OnExpire: func(aura *Aura, sim *Simulation) {
+				aura.Unit.AddStatsDynamic(sim, stats.Stats{
+					stats.MeleeCrit: -10 * CritRatingPerCritChance,
+					stats.SpellCrit: -10 * CritRatingPerCritChance,
+				})
+			},
+		})
+
+		berserkingSpell := character.RegisterSpell(SpellConfig{
+			ActionID: actionID,
+
+			Cast: CastConfig{
+				CD: Cooldown{
+					Timer:    character.NewTimer(),
+					Duration: time.Minute * 3,
+				},
+			},
+
+			ApplyEffects: func(sim *Simulation, _ *Unit, _ *Spell) {
+				berserkingAura.Activate(sim)
+			},
+		})
+
+		character.AddMajorCooldown(MajorCooldown{
+			Spell: berserkingSpell,
+			Type:  CooldownTypeDPS,
+		})
 	case proto.Race_RaceNightElf:
 		character.PseudoStats.ReducedNatureHitTakenChance += 0.02
 		character.PseudoStats.ReducedPhysicalHitTakenChance += 0.02
-		// TODO: Shadowmeld?
+
+		character.RegisterAura(Aura{
+			ActionID: ActionID{SpellID: 18094},
+			Label:    "Titanforged Night Elf (Night)",
+			Duration: NeverExpires,
+			OnGain: func(aura *Aura, sim *Simulation) {
+				aura.Unit.AddStatsDynamic(sim, stats.Stats{
+					stats.MeleeHaste: 1 * HasteRatingPerHastePercent,
+					stats.SpellHaste: 1 * HasteRatingPerHastePercent,
+				})
+			},
+			OnExpire: func(aura *Aura, sim *Simulation) {
+				aura.Unit.AddStatsDynamic(sim, stats.Stats{
+					stats.MeleeHaste: -1 * HasteRatingPerHastePercent,
+					stats.SpellHaste: -1 * HasteRatingPerHastePercent,
+				})
+			},
+		})
+
+		character.RegisterAura(Aura{
+			ActionID: ActionID{SpellID: 64201},
+			Label:    "Titanforged Night Elf (Day)",
+			Duration: NeverExpires,
+			OnGain: func(aura *Aura, sim *Simulation) {
+				aura.Unit.AddStatsDynamic(sim, stats.Stats{
+					stats.MeleeCrit: 1 * CritRatingPerCritChance,
+					stats.SpellCrit: 1 * CritRatingPerCritChance,
+				})
+			},
+			OnExpire: func(aura *Aura, sim *Simulation) {
+				aura.Unit.AddStatsDynamic(sim, stats.Stats{
+					stats.MeleeCrit: -1 * CritRatingPerCritChance,
+					stats.SpellCrit: -1 * CritRatingPerCritChance,
+				})
+			},
+		})
+
 	case proto.Race_RaceOrc:
 		// Command (Pet damage +5%)
 		for _, pet := range character.Pets {

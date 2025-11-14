@@ -1038,127 +1038,127 @@ dps_results: {
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOC-default-FullBuffs-LongMultiTarget"
  value: {
-  dps: 10076.82642
-  tps: 27030.37906
+  dps: 10096.68696
+  tps: 27077.34679
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOC-default-FullBuffs-LongSingleTarget"
  value: {
-  dps: 2928.99384
-  tps: 6956.2366
+  dps: 2944.34614
+  tps: 6991.15184
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOC-default-FullBuffs-ShortSingleTarget"
  value: {
-  dps: 3185.32676
-  tps: 7539.11048
+  dps: 3231.52187
+  tps: 7643.77615
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOC-default-NoBuffs-LongMultiTarget"
  value: {
-  dps: 2999.32622
-  tps: 8679.43636
+  dps: 3013.34776
+  tps: 8714.38702
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOC-default-NoBuffs-LongSingleTarget"
  value: {
-  dps: 1395.37574
-  tps: 3374.98453
+  dps: 1404.66021
+  tps: 3397.40434
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOC-default-NoBuffs-ShortSingleTarget"
  value: {
-  dps: 1582.2127
-  tps: 3841.8844
+  dps: 1606.05147
+  tps: 3899.23459
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOR-default-FullBuffs-LongMultiTarget"
  value: {
-  dps: 9067.49212
-  tps: 24426.1876
+  dps: 9083.08973
+  tps: 24462.75252
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOR-default-FullBuffs-LongSingleTarget"
  value: {
-  dps: 2947.82796
-  tps: 7013.35705
+  dps: 2958.33041
+  tps: 7035.84299
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOR-default-FullBuffs-ShortSingleTarget"
  value: {
-  dps: 3186.83281
-  tps: 7545.21246
+  dps: 3214.55246
+  tps: 7603.46026
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOR-default-NoBuffs-LongMultiTarget"
  value: {
-  dps: 2460.4117
-  tps: 7295.9721
+  dps: 2470.39093
+  tps: 7320.31657
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOR-default-NoBuffs-LongSingleTarget"
  value: {
-  dps: 1364.89179
-  tps: 3300.98772
+  dps: 1372.16392
+  tps: 3318.49013
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOR-default-NoBuffs-ShortSingleTarget"
  value: {
-  dps: 1536.2802
-  tps: 3726.015
+  dps: 1561.86413
+  tps: 3788.03416
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOV-default-FullBuffs-LongMultiTarget"
  value: {
-  dps: 9955.58752
-  tps: 26697.76557
+  dps: 9973.82218
+  tps: 26740.11877
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOV-default-FullBuffs-LongSingleTarget"
  value: {
-  dps: 3269.12599
-  tps: 7833.34249
+  dps: 3281.25278
+  tps: 7860.90608
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOV-default-FullBuffs-ShortSingleTarget"
  value: {
-  dps: 3415.55618
-  tps: 8147.45879
+  dps: 3448.08133
+  tps: 8218.69066
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOV-default-NoBuffs-LongMultiTarget"
  value: {
-  dps: 2925.04123
-  tps: 8490.85749
+  dps: 2937.04986
+  tps: 8520.31097
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOV-default-NoBuffs-LongSingleTarget"
  value: {
-  dps: 1556.197
-  tps: 3790.12454
+  dps: 1565.07802
+  tps: 3811.42162
  }
 }
 dps_results: {
  key: "TestProtection-Settings-Human-p1-Protection Paladin SOV-default-NoBuffs-ShortSingleTarget"
  value: {
-  dps: 1701.08947
-  tps: 4156.60067
+  dps: 1725.12043
+  tps: 4215.14311
  }
 }
 dps_results: {
