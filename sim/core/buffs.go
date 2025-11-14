@@ -103,8 +103,8 @@ func applyBuffEffects(agent Agent, raidBuffs *proto.RaidBuffs, partyBuffs *proto
 
 	if partyBuffs.HeroicPresence {
 		character.AddStats(stats.Stats{
-			stats.MeleeHit: 1 * MeleeHitRatingPerHitChance,
-			stats.SpellHit: 1 * SpellHitRatingPerHitChance,
+			stats.MeleeHit: 2 * MeleeHitRatingPerHitChance,
+			stats.SpellHit: 2 * SpellHitRatingPerHitChance,
 		})
 	}
 

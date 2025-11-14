@@ -7,7 +7,7 @@ import (
 	"github.com/wowsims/wotlk/sim/core/stats"
 )
 
-func applyRaceEffects(agent Agent) {
+func applyRaceEffects(agent Agent, partyBuffs *proto.PartyBuffs) {
 	character := agent.GetCharacter()
 
 	switch character.Race {
@@ -69,6 +69,7 @@ func applyRaceEffects(agent Agent) {
 		})
 	case proto.Race_RaceDraenei:
 		character.PseudoStats.ReducedShadowHitTakenChance += 0.02
+		partyBuffs.HeroicPresence = true
 		// TODO: Gift of the naaru for healers
 	case proto.Race_RaceDwarf:
 		character.PseudoStats.ReducedFrostHitTakenChance += 0.02
@@ -115,7 +116,7 @@ func applyRaceEffects(agent Agent) {
 		})
 	case proto.Race_RaceGnome:
 		character.PseudoStats.ReducedArcaneHitTakenChance += 0.02
-		character.MultiplyStat(stats.Intellect, 1.05)
+		character.MultiplyStat(stats.Intellect, 1.10)
 	case proto.Race_RaceHuman:
 		character.MultiplyStat(stats.Spirit, 1.03)
 		applyWeaponSpecialization(character, 3*ExpertisePerQuarterPercentReduction,
