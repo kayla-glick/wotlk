@@ -171,14 +171,14 @@ func applyRaceEffects(agent Agent) {
 			Duration: NeverExpires,
 			OnGain: func(aura *Aura, sim *Simulation) {
 				aura.Unit.AddStatsDynamic(sim, stats.Stats{
-					stats.MeleeHaste: 1 * HasteRatingPerHastePercent,
-					stats.SpellHaste: 1 * HasteRatingPerHastePercent,
+					stats.MeleeHaste: 3 * HasteRatingPerHastePercent,
+					stats.SpellHaste: 3 * HasteRatingPerHastePercent,
 				})
 			},
 			OnExpire: func(aura *Aura, sim *Simulation) {
 				aura.Unit.AddStatsDynamic(sim, stats.Stats{
-					stats.MeleeHaste: -1 * HasteRatingPerHastePercent,
-					stats.SpellHaste: -1 * HasteRatingPerHastePercent,
+					stats.MeleeHaste: -3 * HasteRatingPerHastePercent,
+					stats.SpellHaste: -3 * HasteRatingPerHastePercent,
 				})
 			},
 		})
@@ -189,14 +189,14 @@ func applyRaceEffects(agent Agent) {
 			Duration: NeverExpires,
 			OnGain: func(aura *Aura, sim *Simulation) {
 				aura.Unit.AddStatsDynamic(sim, stats.Stats{
-					stats.MeleeCrit: 1 * CritRatingPerCritChance,
-					stats.SpellCrit: 1 * CritRatingPerCritChance,
+					stats.MeleeCrit: 2 * CritRatingPerCritChance,
+					stats.SpellCrit: 2 * CritRatingPerCritChance,
 				})
 			},
 			OnExpire: func(aura *Aura, sim *Simulation) {
 				aura.Unit.AddStatsDynamic(sim, stats.Stats{
-					stats.MeleeCrit: -1 * CritRatingPerCritChance,
-					stats.SpellCrit: -1 * CritRatingPerCritChance,
+					stats.MeleeCrit: -2 * CritRatingPerCritChance,
+					stats.SpellCrit: -2 * CritRatingPerCritChance,
 				})
 			},
 		})
