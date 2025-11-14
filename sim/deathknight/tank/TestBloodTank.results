@@ -835,15 +835,15 @@ dps_results: {
 dps_results: {
  key: "TestBloodTank-Settings-Human-p1_blood-Basic-blood_aggro-FullBuffs-LongMultiTarget"
  value: {
-  dps: 2027.63121
-  tps: 4460.59972
+  dps: 2033.9785
+  tps: 4482.91524
  }
 }
 dps_results: {
  key: "TestBloodTank-Settings-Human-p1_blood-Basic-blood_aggro-FullBuffs-LongSingleTarget"
  value: {
-  dps: 2027.63121
-  tps: 4460.59972
+  dps: 2033.9785
+  tps: 4482.91524
  }
 }
 dps_results: {
@@ -856,15 +856,15 @@ dps_results: {
 dps_results: {
  key: "TestBloodTank-Settings-Human-p1_blood-Basic-blood_aggro-NoBuffs-LongMultiTarget"
  value: {
-  dps: 1232.20876
-  tps: 2681.16878
+  dps: 1234.76632
+  tps: 2688.11065
  }
 }
 dps_results: {
  key: "TestBloodTank-Settings-Human-p1_blood-Basic-blood_aggro-NoBuffs-LongSingleTarget"
  value: {
-  dps: 1232.20876
-  tps: 2681.16878
+  dps: 1234.76632
+  tps: 2688.11065
  }
 }
 dps_results: {
@@ -877,15 +877,15 @@ dps_results: {
 dps_results: {
  key: "TestBloodTank-Settings-Human-p1_blood-Basic-blood_icy_touch-FullBuffs-LongMultiTarget"
  value: {
-  dps: 7758.97333
-  tps: 18149.94639
+  dps: 7761.10904
+  tps: 18155.89289
  }
 }
 dps_results: {
  key: "TestBloodTank-Settings-Human-p1_blood-Basic-blood_icy_touch-FullBuffs-LongSingleTarget"
  value: {
-  dps: 2176.94847
-  tps: 6642.4323
+  dps: 2180.68942
+  tps: 6650.31458
  }
 }
 dps_results: {
@@ -898,15 +898,15 @@ dps_results: {
 dps_results: {
  key: "TestBloodTank-Settings-Human-p1_blood-Basic-blood_icy_touch-NoBuffs-LongMultiTarget"
  value: {
-  dps: 4194.53825
-  tps: 9927.76325
+  dps: 4194.63324
+  tps: 9932.99496
  }
 }
 dps_results: {
  key: "TestBloodTank-Settings-Human-p1_blood-Basic-blood_icy_touch-NoBuffs-LongSingleTarget"
  value: {
-  dps: 1303.69626
-  tps: 3925.08175
+  dps: 1305.19981
+  tps: 3932.62688
  }
 }
 dps_results: {

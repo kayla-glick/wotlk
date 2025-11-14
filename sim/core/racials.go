@@ -149,7 +149,7 @@ func applyRaceEffects(agent Agent, partyBuffs *proto.PartyBuffs) {
 			Cast: CastConfig{
 				CD: Cooldown{
 					Timer:    character.NewTimer(),
-					Duration: time.Minute * 3,
+					Duration: time.Minute * 2,
 				},
 			},
 

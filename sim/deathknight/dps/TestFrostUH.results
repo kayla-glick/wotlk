@@ -918,15 +918,15 @@ dps_results: {
 dps_results: {
  key: "TestFrostUH-Settings-Human-p3_frost-Basic-frost_uh_pesti-FullBuffs-LongMultiTarget"
  value: {
-  dps: 31255.59852
-  tps: 22625.80832
+  dps: 31280.44199
+  tps: 22654.41289
  }
 }
 dps_results: {
  key: "TestFrostUH-Settings-Human-p3_frost-Basic-frost_uh_pesti-FullBuffs-LongSingleTarget"
  value: {
-  dps: 11829.60365
-  tps: 8316.02493
+  dps: 11843.7804
+  tps: 8340.05114
  }
 }
 dps_results: {
@@ -939,15 +939,15 @@ dps_results: {
 dps_results: {
  key: "TestFrostUH-Settings-Human-p3_frost-Basic-frost_uh_pesti-NoBuffs-LongMultiTarget"
  value: {
-  dps: 16000.90784
-  tps: 11525.0726
+  dps: 16040.39442
+  tps: 11554.13472
  }
 }
 dps_results: {
  key: "TestFrostUH-Settings-Human-p3_frost-Basic-frost_uh_pesti-NoBuffs-LongSingleTarget"
  value: {
-  dps: 7020.67131
-  tps: 4909.82484
+  dps: 7028.64866
+  tps: 4915.69618
  }
 }
 dps_results: {

@@ -929,15 +929,15 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-Settings-Human-p1_balanced-Basic-default-FullBuffs-LongMultiTarget"
  value: {
-  dps: 1493.07313
-  tps: 3932.13271
+  dps: 1510.6525
+  tps: 3972.5946
  }
 }
 dps_results: {
  key: "TestProtectionWarrior-Settings-Human-p1_balanced-Basic-default-FullBuffs-LongSingleTarget"
  value: {
-  dps: 1493.07313
-  tps: 3881.46605
+  dps: 1510.6525
+  tps: 3922.2446
  }
 }
 dps_results: {
@@ -950,15 +950,15 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-Settings-Human-p1_balanced-Basic-default-NoBuffs-LongMultiTarget"
  value: {
-  dps: 1113.90113
-  tps: 3482.07045
+  dps: 1126.373
+  tps: 3513.15153
  }
 }
 dps_results: {
  key: "TestProtectionWarrior-Settings-Human-p1_balanced-Basic-default-NoBuffs-LongSingleTarget"
  value: {
-  dps: 888.45817
-  tps: 2544.14404
+  dps: 893.81293
+  tps: 2558.8367
  }
 }
 dps_results: {
