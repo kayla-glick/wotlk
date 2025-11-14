@@ -45,4 +45,3 @@ jobs:
             folder: dist/wotlk
             target-folder: wotlk
             single-commit: true
-            token: ${{ secrets.DEPLOY_REPO_TOKEN }}
