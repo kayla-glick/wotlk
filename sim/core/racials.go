@@ -85,7 +85,7 @@ func applyRaceEffects(agent Agent, partyBuffs *proto.PartyBuffs) {
 		actionID := ActionID{SpellID: 20594}
 
 		statDep := character.NewDynamicMultiplyStat(stats.Armor, 1.1)
-		stoneFormAura := character.NewTemporaryStatsAuraWrapped("Stoneform", actionID, stats.Stats{}, time.Second*8, func(aura *Aura) {
+		stoneFormAura := character.NewTemporaryStatsAuraWrapped("Stoneform", actionID, stats.Stats{}, time.Second*10, func(aura *Aura) {
 			aura.ApplyOnGain(func(aura *Aura, sim *Simulation) {
 				aura.Unit.EnableDynamicStatDep(sim, statDep)
 				aura.Unit.PseudoStats.DamageDealtMultiplier *= 1.05
